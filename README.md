@@ -24,8 +24,7 @@ Here is a clean file breakdown from start to finish:
 4) compiler/allocator.py (Node 8): Dedicated module managing scratchpad SRAM layouts and reuse buffers to minimize off-chip DRAM bottlenecks.
 5) experiments/run_seu_stress.py: A dedicated Monte Carlo experiment runner that executes stress tests across SEU error rates ($10^{-6}$ to $10^{-3}$) to generate the resilience curves detailed in our paper.
 
-=======================================EXECUTION=======================================
-=======================================EXPLANATION=======================================
+================================EXECUTION================================
 ## 🚀 Getting Started and Execution Steps
 
 To set up the simulation environment and execute the CRAI-Core framework locally, follow the steps below:
